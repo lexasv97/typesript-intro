@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
-        "target": "ES6"
+        "allowJs": true, 
+        "checkJs": true,
+        "outDir": "build",
+        "target": "esnext", // ES6
+      //  "noEmit": true  // won't build new file, just type checking
     },
     "include": ["src/**/*"]
 }
